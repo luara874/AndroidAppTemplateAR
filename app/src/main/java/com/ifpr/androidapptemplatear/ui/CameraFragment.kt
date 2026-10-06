@@ -129,7 +129,7 @@ class CameraFragment : Fragment() {
                 glbFileLocation = getFilePath(requireContext(),fileName),
                 centerOrigin = Position(0f,0f,1f),
 
-            ) {
+                ) {
                 sceneView.planeRenderer.isVisible = true
             }
             // Permitir interação com o modelo
